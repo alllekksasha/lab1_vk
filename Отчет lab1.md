@@ -280,6 +280,8 @@ CREATE TABLE silver.q16.good_suppliers_restore AS
 SELECT suppkey, status
 FROM silver.q16.good_suppliers
 FOR VERSION AS OF 9205729315061316154;
+```
+
 
 
 
